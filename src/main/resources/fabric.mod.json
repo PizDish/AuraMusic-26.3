@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "auramusic",
+  "version": "${version}",
+  "name": "AuraMusic",
+  "description": "Original client-side music player for Minecraft: music discs, soundtrack and local WAV files.",
+  "authors": [
+    "AuraMusic Community"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.auramusic.client.AuraMusicClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "icon": "assets/auramusic/icon.png"
+}

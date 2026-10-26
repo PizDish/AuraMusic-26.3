@@ -1,3 +1,5 @@
+> **IMPORTANT:** Use a real Fabric Loom build for installation. Previous experimental test JARs were NOT binary compatible. See `FIX_CRASH_AND_UPLOAD_RU.md`.
+
 # AuraMusic 26.3 🎵
 
 An **original**, client-side music player mod for **Minecraft Java 26.3 + Fabric**.
@@ -71,3 +73,6 @@ src/client/resources/assets/auramusic/lang/
 ## License
 
 MIT for the new source code. Minecraft, Fabric and music content remain with their respective owners.
+
+
+See [COMPATIBILITY_FIX.md](COMPATIBILITY_FIX.md) for the 26.3 crash fix and known limitations.
